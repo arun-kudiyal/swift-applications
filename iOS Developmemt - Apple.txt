@@ -1,0 +1,218 @@
+iOS Developmemt - (2 Sems) :-
+
+3 Stages -
+	1. App Design & Prototyping [100 hrs]
+		-> UI/UX 
+		-> Design Thinking
+		-> Story Telling
+
+	2. iOS App Dev [100 hrs]
+		-> Apple Frameworks
+		-> App Dev Process
+		-> App Dev
+
+	3. Industry Internship - [160 hrs - 4 weeks at Infosys]
+
+
+----- x -----								----- x -----
+
+1. "Software is eating the world." - every commerce should have a software
+	-> Take care of the UX for making experience seamless. 
+2. App Economy - There is app for Everything.
+	-> few to no barrier entry
+	-> anyone who can code skill, can be a part.
+	-> possibilities to reach billions
+	-> put a dent in the universe
+3. How to be a part of the App Economy? 
+	-> Just build the application 
+	-> Begins with an awesome idea
+	-> skills => coding + design (UX)
+	-> Designing is difficult as we have multiple solutions
+4. Coding Skills -
+	-> Develop in Swift - Exploration (mostly K12)
+	-> Develop in Swift - Fundamentals (College grads - new to Swift)
+	-> Develop in Swift - Data Collections (focuses on iOS app dev)
+
+----- x -----								----- x -----
+
+DESIGN THINKING :-
+
+a. Empathize - 
+	-> Empathy with the user, get to know
+	-> challenges & problems. 
+	-> Observe, engage and understand on emotional and psychological level
+		=> Build a user persona 
+		=> define user needs & problems 
+
+		BRAIN STORM =====> SKETCHING =====> TIME-BOXING
+
+b. Ideate -
+	-> first principles (beginners mind) - ASK WHY..?
+	-> begin to generate ideas for innovative solutions.
+
+c. Prototype -
+	-> Build a small mock-up for  
+	-> Sketch - rough model
+	-> Protype - on paper, 2D, 3D or KeyNote.
+
+d. Test & Feedback -
+	-> Test Solutions and debug based on feedbacks
+
+----- x -----								----- x -----
+
+APP DESIGN WORKBOOK :-
+
+1. eCommerce - Pet care products
+2. Fitness Trainer
+3. Digital Classroom
+4. Food Delivery
+
+----- x -----								----- x -----
+
+What to do ?
+
+1. Ask questions for the assumptions (INNOVATION)
+2. Simplify the set of problems while solution finding. 
+3. Make changes and offer adjustments - make a trust point in the app. (TRUST)
+4. Take time to explore and sit with ides. keep refining the ideas, over time.
+5. Use metaphors in the apps. - use gestures and make it look like a real-life. (REFINEMENTS)
+6. Create immersive experience & feel for the user - reinforce the intent by adding emotions.
+7. Create cohesive design by making it consistent & adding aesthetics. (AESTHETICS)
+8. Make application inclusive by adding UI/UX for everyone. (INCLUSIVE)
+9. Attention to detail - take time, don't settle for the first design. 
+
+----- x -----								----- x -----
+
+INTRODUCTION TO SWIFT :-
+
+-> Introduced in 2014 at WWDC by Apple Inc as a modern programming language.
+-> Before Swift, code was done in Objetive-C.
+-> NextStep started developing XCode using Objective-C.
+-> Before Xcode, Apple worked with CoCo.
+-> Objective-C is verbose. Eg:- Creating Object :- [[Rectangle rectObj] init] | Rectangle rectObj = new Rectangle();
+-> Works on 3 fundamentals - Safe, Fast & Expressive.
+
+Swift is Safe :- 
+	-> Swift handles type safety by statically type. 
+	-> Swift uses type inference (initial value defines type).
+	-> Swift uses Optionals.
+	-> Rich eroor handling. (do-catch).
+Swift is Fast :- 
+	-> Swift is compiled. 
+	-> Swift converts (.swift) code into binaries.
+Swift is Expressive :- 
+	-> Flow is quite natural, making intentions clear.
+
+
+Swift uses guard which provides validation to data.
+Eg:-
+function foo(int x, int y) {
+	guard y!=0 else return;
+	return x / y;
+}
+
+----- x -----								----- x -----
+
+NOTE:-
+=> Swift is an Open Source Software.
+=> Swift donot use pre or post incremenet.
+=> If you want to add / remove something from Swift, we need to write PROPOSALS to Apple.
+=> Visit swift.org for more explainations.
+=> While coding, Swift automatically adds standard libarries.
+=> The start of the app always starts from "main.swift".
+=> To use Swift native to the Mac, run on Terminal using command swift -repl.
+=> “Swift comes with a tool called a REPL, which stands for Read, Eval, Print Loop.”
+
+----- x -----								----- x -----
+
+CONSTANTS & VARIABLES :-
+
+-> Associate a name with a value.
+-> Defining a constant or variables.
+-> Allocataes storage of value in memory.
+-> Associates the constant name with the assigned value.
+
+Swift Programing Guidelines :-
+
+-> Use camelCasing notations
+-> Comments work like C.
+
+----- x -----								----- x -----
+
+Types:-
+-> What type of values are stored.
+-> How memory is managed.
+-> Makes expressions.
+
+-> 4 types :- integer, double, boolean, string
+
+-> Create user-defined using "struct".
+
+----- x -----								----- x -----
+
+CONTROL FLOW :-
+
+1. Logical Operators (==, !=, >, >=, <, <=)
+2. Conditional Statements (if, else-if, else)
+
+----- x -----								----- x -----
+
+UNIT 2 :-
+
+Strings:-
+-> We create string literals by using " ".
+-> Immutable String => let someString = "This is a immutable string literal"
+-> Mutable String => var otherString = "This is a mutable string literal"
+-> Raw String => let formattedString = """ Q:- What is a raw string? 	| 	A:- Any string maintaining the white spacing without needing escape sequence. """
+
+Esacpe Charachter :-
+
+\"	-> Lets you write "" in the string.
+\t 	-> Provides a Tab
+\r 	-> Carriage Return
+
+-> Swift creates a copy of the string for passing the value for functions but if we are reading the value, NO COPY is created.
+-> To create a charachter, we need to do Type Annotation. NOTHING ' ' FOR CHARACHTERS.
+
+
+Concatenation :- str1 + str2 | myString += "Hello"
+String Interpolation :- print("\(firstName) \(lastName)")
+
+NOTE:- 
+-> Donot add any other type with string as Swift donot perform any implicit type casting. USE "\()" INSTEAD.
+-> We can use expressions in the "\()". Eg: print("The sum of 10 and 20 is \(10+20)")
+
+
+str.lowercased() & str.uppercased()
+Note :- THE COPY OF CHANGED CASE IS RETURNED.
+
+hasPrefix() -> Checks if the string begins with a given prefix
+hasSuffix() -> Checks if the string ends with a given prefix
+conatins() -> Checks if the string is conatined in the other string
+count() -> Returns the length of the string | Returns an Integer.
+
+// NOTE :-
+-> Strings are Unicode in Swift. Meaning we can keep any unicode, including symbols and emojis.
+-> The memory stored in the string will be the (count * 2), i.e. each char in the string is unicode which takes 2 bytes.
+
+
+// FUNCTIONS
+-> Syntax => func funcName(params) -> returnType { FUNCTION_BODY... }
+NOTE:- 
+-> At the function site, the param names are important and should be passed while calling.
+-> If the function only have one expression statement, no need to add the "return" keyword.
+
+
+ARGUMENT LABEL
+In swift, you can define, differnt external name (name used outside the func) & internal name (name used inside the func)
+Syntax :- func funcName(extName intName:Type, extName intName: Type) -> ReturnType { ... }
+
+NOTE:-
+-> If we wish to ommit the name of the param, keep the external name to '_', so we can skip the name.
+
+
+Structures :- 
+-> Create a custom type, containing data and functions.
+-> Conventinally starts with the a capital letter.
+-> When we define a new structure & do not define any initialisers, Swift creates a defualt initialisers called "Member Initialisers".
+

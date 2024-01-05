@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "4F7A9BF4-FD6E-4F10-9A67-121CFB9E0A8B"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6A23669-AB5B-4298-ACC7-FC3E10568CCB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "MotivationlaQuotes/ViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "D6A23669-AB5B-4298-ACC7-FC3E10568CCB - 41c7b8833cb5add6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MotivationlaQuotes.ViewController.authorLabel.getter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "MotivationlaQuotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arunkudiyal/Desktop/Swift_Applications/MotivationlaQuotes/MotivationlaQuotes/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "D6A23669-AB5B-4298-ACC7-FC3E10568CCB - a14af249b49809da"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MotivationlaQuotes.ViewController.authorLabel.setter : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "MotivationlaQuotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arunkudiyal/Desktop/Swift_Applications/MotivationlaQuotes/MotivationlaQuotes/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "D6A23669-AB5B-4298-ACC7-FC3E10568CCB - 46e7cdc20cf804d5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MotivationlaQuotes.ViewController.authorLabel.modify : Swift.Optional&lt;__C.UILabel&gt;"
+                  moduleName = "MotivationlaQuotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arunkudiyal/Desktop/Swift_Applications/MotivationlaQuotes/MotivationlaQuotes/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "0">
+               </Location>
+               <Location
+                  uuid = "D6A23669-AB5B-4298-ACC7-FC3E10568CCB - 80f25bd61e362ae9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MotivationlaQuotes.ViewController.authorLabel.modify : Swift.Optional&lt;__C.UILabel&gt; with unmangled suffix &quot;.resume.0&quot;"
+                  moduleName = "MotivationlaQuotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arunkudiyal/Desktop/Swift_Applications/MotivationlaQuotes/MotivationlaQuotes/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  uuid = "D6A23669-AB5B-4298-ACC7-FC3E10568CCB - 63391c2435b2aa12"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MotivationlaQuotes.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; MotivationlaQuotes.ViewController"
+                  moduleName = "MotivationlaQuotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arunkudiyal/Desktop/Swift_Applications/MotivationlaQuotes/MotivationlaQuotes/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "D6A23669-AB5B-4298-ACC7-FC3E10568CCB - 6cc68ac3fe8a3f4a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MotivationlaQuotes.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;MotivationlaQuotes.ViewController&gt;"
+                  moduleName = "MotivationlaQuotes"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/arunkudiyal/Desktop/Swift_Applications/MotivationlaQuotes/MotivationlaQuotes/ViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "144">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

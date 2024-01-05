@@ -1,0 +1,77 @@
+Segue & Navigation Control
+
+1. Used for navigating from one view to the another.
+2. Any transition from from one ViewController to another.
+
+NOTE:- Segue helps us transition in two ways -
+	i. Transition through Navigation
+	ii. Transition by Presenting Modally.
+
+
+ViewController:-
+
+1. Its basically a file which is capable to containing Model & the Controller.
+2. Contains @IBAction which is responsible for handling actions by manipulation data (Model).
+3. The interaction b/w View and Controller using ViewController.
+
+Note:- 
+1. The object of the ViewController is accessed by the storyboard.
+2. The code for the ViewConroller is managed and updated in ViewController.swift file.
+3. Any UIElement will be created when the viewDidLoad() method gets called.
+4. The code managed in ViewController.swift file, ViewController object is created and it puts element in the View,
+5. Each ViewController has it's own View.
+6. The launch screen is the splash screen visible to the user for the fraction of second while app opens.
+7. The object of the ViewController is called in the UIViewController which is the part of the UIKit.
+8. Triggered Segue - Change the view based on the triggered action (maybe a button click).
+
+Options in the Segue -
+
+i.  Show (default) 				 -> Present Modally
+ii. Show (Navigation Controller) -> Navigation
+
+
+Unwinding from a Segue :-
+-> Helps us implement the returned method in the view controller you wish to return to.
+-> Does not need anythoing but the following code :-
+	@IBAction func myUnwindFunction(unwindSegue: UIStoryboardSegue) { ... }
+
+Navigation using NavigationController :-
+-> Need to add a  NavigationController class and manage the screens.
+-> We need to also add the root view controller.
+
+
+Passing Info using Segue 
+-> Segue Properties :
+	-> identifier
+	-> destination
+
+-> We do it using prepare() function where I get the access to the source & destination. 
+
+
+Programattic Segue :-
+Syntax = performSegue(withIdentifier:, sender:)
+Call = performSegue(withIdentifier: "green"/"red", sender: nil)
+
+
+
+
+VIEW CONTROLLER LIFE CYCLE :-
+
+
+1. viewDidLoad 		:- 		All the object and property initialisations are done here. We can have memory initialisations are done here.
+2. viewWillAppear	:-		
+3. viewDidAppear	:- 
+
+
+When you switch between View Controllers :-
+
+VIEW - 1										VIEW - 2
+
+viewDidLoad()
+viewWillAppear()
+viewDidAppear()
+												viewDidLoad()
+viewWillDisappear()
+												viewWillAppear()
+viewDidDisappear()
+												viewDidAppear()
