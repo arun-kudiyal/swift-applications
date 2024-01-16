@@ -10,6 +10,7 @@
 		C8403CCA2B50FCE800CDF949 /* TasksTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8403CC92B50FCE800CDF949 /* TasksTableViewController.swift */; };
 		C8403CCC2B50FE0200CDF949 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8403CCB2B50FE0200CDF949 /* Task.swift */; };
 		C8403CCE2B510A1E00CDF949 /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8403CCD2B510A1E00CDF949 /* TaskTableViewCell.swift */; };
+		C867318C2B567F48001E3FFE /* DemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C867318B2B567F48001E3FFE /* DemoViewController.swift */; };
 		C870E61D2B5643CF00BFA3CC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C870E61C2B5643CF00BFA3CC /* HomeViewController.swift */; };
 		C8D333602B50F4FE00B3D846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D3335F2B50F4FE00B3D846 /* AppDelegate.swift */; };
 		C8D333622B50F4FE00B3D846 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D333612B50F4FE00B3D846 /* SceneDelegate.swift */; };
@@ -23,6 +24,7 @@
 		C8403CC92B50FCE800CDF949 /* TasksTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksTableViewController.swift; sourceTree = "<group>"; };
 		C8403CCB2B50FE0200CDF949 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 		C8403CCD2B510A1E00CDF949 /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		C867318B2B567F48001E3FFE /* DemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoViewController.swift; sourceTree = "<group>"; };
 		C870E61C2B5643CF00BFA3CC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C8D3335C2B50F4FE00B3D846 /* iPlanIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iPlanIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8D3335F2B50F4FE00B3D846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +50,7 @@
 		C8D333532B50F4FE00B3D846 = {
 			isa = PBXGroup;
 			children = (
+				C867318B2B567F48001E3FFE /* DemoViewController.swift */,
 				C8D3335E2B50F4FE00B3D846 /* iPlanIt */,
 				C8D3335D2B50F4FE00B3D846 /* Products */,
 			);
@@ -157,6 +160,7 @@
 				C8403CCA2B50FCE800CDF949 /* TasksTableViewController.swift in Sources */,
 				C870E61D2B5643CF00BFA3CC /* HomeViewController.swift in Sources */,
 				C8D333622B50F4FE00B3D846 /* SceneDelegate.swift in Sources */,
+				C867318C2B567F48001E3FFE /* DemoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,21 +9,27 @@ import UIKit
 
 class HomeViewController: UIViewController {
 
+    @IBOutlet weak var activityDetails: UIStackView!
+    @IBOutlet weak var completedTask: UILabel!
+    @IBOutlet weak var activityRingImage: UIImageView!
+    
     override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        // Adding padding to Activity Stack View
+        activityDetails.layoutMargins = UIEdgeInsets(top: 15, left: 15, bottom: 15, right: 15)
+        activityDetails.isLayoutMarginsRelativeArrangement = true
+        
+        // Respond to tap gesture
+        activityRingImage.isUserInteractionEnabled = true
+        activityRingImage.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(self.imageTap)))
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    // Image Tap Handler Function
+    @objc func imageTap() {
+        print("Works!")
+        // or push to the navigation stack
+        self.navigationController?.pushViewController(TasksTableViewController(), animated: true)
+        // or perform segue if you use storyboards
+        // self.preformSegue(withIdentifier: "yourNextScreen", sender: self)
     }
-    */
 
 }
